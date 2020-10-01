@@ -12,16 +12,36 @@ Python tools fior OCI infraestructure
 
 ## Blueprint Report
 
+Discovers network resources in especified compartments, and writes down Excel reports.
+
+Steps:
+
 1) Set parameters in infra-blueprint/workspace/config.yaml file
+
 2) Execute
 
    ```
    ./run-infra-blueprint.sh
    ```
 
+   You can specify a different workspace folder:
+
+   ```
+   ./run-infra-blueprint.sh -h
+   usage: controller.py [-h] [-w WORKSPACE_FOLDER]
+
+   optional arguments:
+   -h, --help            show this help message and exit
+   -w WORKSPACE_FOLDER, --workspace-folder WORKSPACE_FOLDER
+                           set workspace folder. By default is
+                           /default/folder/workspace
+   ```
+
 3) Output spreadsheets can be found at infra-blueprint/workspace folder
 
 ## Retag resources
+
+Modify tags in OCI infraestructure for resources declared in a retagging project.
 
 A "retagging project" is a specific configuration which includes:
 
@@ -30,7 +50,11 @@ A "retagging project" is a specific configuration which includes:
 * Rules for declaring tag/values to ensure in the project infraestructure resources
 * Rules for declaring tags to exclude from the project infraestructure resources
 
-1) Get resource OCIDs
+If the project configuration does not specify a Terraform folder where to get the resource definitions from, you have to follow __Step 1__.
+
+Steps:
+
+1) __Only if not automatic Terraform resource fetching is used__. Get resource OCIDs
 
    a) cd to (terraform infra folder)
 

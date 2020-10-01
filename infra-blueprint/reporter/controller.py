@@ -4,6 +4,7 @@ import os
 import yaml
 import report_builder
 import sys
+import argparse
 
 DEFAULT_WORK_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'workspace'))
 CONFIG_FILE_NAME = 'config.yaml'
@@ -68,7 +69,11 @@ def process(base_path = DEFAULT_WORK_PATH):
 
 if __name__ == '__main__':
 
-    if len(sys.argv) == 1:
-        process()
-    else:
-        process(sys.argv[1])
+    parser = argparse.ArgumentParser()
+
+    parser.add_argument('-w', '--workspace-folder', help='set workspace folder. By default is ' + DEFAULT_WORK_PATH, default = DEFAULT_WORK_PATH)
+
+    args=parser.parse_args()
+
+    process(base_path=args.workspace_folder)
+
