@@ -1,0 +1,27 @@
+oci-config-filename: ~/.oci/config
+oci-config-profile-name: DEFAULT
+
+writers:
+  - spreadsheet
+
+spreadsheet-settings:
+  file-name: CompartmentReports.xlsx
+  start-coordinates:
+    row: 3
+    col: 0
+
+reports:
+  - name: PROD_ASH
+    compartment-name: PROD
+    compartment-ocid: ocid1.compartment.oc1..aaaaaaaalivg3sasjhcjafv7bhwaj74xjvstpcljli6w6z773wwvqxpudbzq
+    network-compartment-ocid: ocid1.compartment.oc1..aaaaaaaazixfhbcgqnp7qhvbakdphuhy2b64dxvg3v6433y57bllgsdtfziq
+
+  - name: SANDBOX_ASH
+    compartment-name: SANDBOX
+    compartment-ocid: ocid1.compartment.oc1..aaaaaaaayri5jhe3pr26tgreh2dzgxtxcddmelm7nmifibtpffwtjg5uqxaq
+    network-compartment-ocid: ocid1.compartment.oc1..aaaaaaaaey7jx3unexru3ody7zrkpzeqk7qaeqowot4rqx5z4ohfqmnz7lpq
+
+  - name: HUB_PREPRD_ASH
+    compartment-name: TRANSIT_PREPRD
+    compartment-ocid: ocid1.compartment.oc1..aaaaaaaaeyc6bi6rluu3slsfscrohoc76r74ny233uphrggkeedlvqmvrcla
+    network-compartment-ocid: ocid1.compartment.oc1..aaaaaaaa6pyjf7qkihe23muwvwaerll6xqoq7v7ifgk5zlzj54wjvdf23aaa

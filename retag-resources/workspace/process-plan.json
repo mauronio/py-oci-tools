@@ -1,0 +1,440 @@
+[
+    {
+        "project-name": "wls_test_oci_tags_1.0",
+        "resources": {
+            "Compute_Instances": [
+                {
+                    "resource-name": "wlsserver01",
+                    "resource-id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7icog45bgvtqcgw2uovkrktzrpcsqszntx5mvq7gjnpc7vq",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                },
+                {
+                    "resource-name": "wlsserver02",
+                    "resource-id": "ocid1.instance.oc1.iad.anuwcljs4pu6a7icd4io4zqz45z2hhnzkjpb744zpgtw76j7rvp5sxrpsypq",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                },
+                {
+                    "resource-name": "wlsserver03",
+                    "resource-id": "ocid1.instance.oc1.iad.anuwcljt4pu6a7icia3sj3pgbc4662suetu25vv4k4lvlz2n7epcgf47gjhq",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                },
+                {
+                    "resource-name": "wlsserver04",
+                    "resource-id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7ic3p536httfrnt6xj55muxcthz2rfslhpyvamonmji64nq",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                }
+            ],
+            "FSS_Instances": [
+                {
+                    "resource-name": "wls_fss_ER_MGOMEZ_TAG_UPDATE01",
+                    "resource-id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaans5lrnfqwillqojxwiotjmfsc2ylefuyqaaaa",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                },
+                {
+                    "resource-name": "wls_fss_ER_MGOMEZ_TAG_UPDATE02",
+                    "resource-id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaans5lpnfqwillqojxwiotjmfsc2ylefuyqaaaa",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                }
+            ],
+            "Lbaas_Instance": [
+                {
+                    "resource-name": "wlslbaas",
+                    "resource-id": "ocid1.loadbalancer.oc1.iad.aaaaaaaanikabs5j6yyisweov5hvvfn2vgokd3typbuhvd3ltegaxwrqulyq",
+                    "resource-compartment-id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                    "current-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    },
+                    "new-tags": {
+                        "defined_tags": {
+                            "J2C_CORE": {
+                                "Nombre": "",
+                                "CreadoPor": "ORCL_MGOMEZ",
+                                "CUI/SAP": "",
+                                "Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                                "Confidencialidad": "",
+                                "Ambiente": "sandbox",
+                                "Automatizado": "",
+                                "DuenoDeServicio": "",
+                                "Cumplimiento": "",
+                                "CuentaContable": "",
+                                "Version": "1.0",
+                                "Funcionalidad": "",
+                                "Region": "ASH",
+                                "Artefacto": "",
+                                "Recycle_Startup_Time": "",
+                                "Sistema": "TESTVALUE",
+                                "Cliente": "",
+                                "FechaCreacion": ""
+                            }
+                        },
+                        "freeform_tags": {
+                            "random_tag2": "anyothervalue",
+                            "random_tag": "anyvalue"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+]

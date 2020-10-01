@@ -1,0 +1,23 @@
+oci-config-filename: ~/.oci/config
+oci-config-profile-name: DEFAULT
+
+projects:
+  - wls_test_oci_tags_1.0
+
+wls_test_oci_tags_1.0-settings:
+  resources-file-name: wls_test_oci_tags_1.0.json
+  ensure-tags:
+    defined-tags:
+      J2C_CORE:
+        Region: ASH
+        Sistema: TESTVALUE
+    freeform-tags:
+      random_tag: anyvalue
+      random_tag2: anyothervalue
+  exclude-tags:
+    defined-tags:
+      J2C_CORE:
+        - RecycleFlag
+        - Recycle_Shutdown_Time
+    freeform-tags:
+      - random_tag3
