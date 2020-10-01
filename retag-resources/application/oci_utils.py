@@ -59,6 +59,42 @@ class OCIClient:
                 'tag-updater-model-class': 'UpdateFileSystemDetails',
                 'id-parameter-name': 'file_system_id',
                 'details-parameter-name': 'update_file_system_details'
+            },
+            'database': {
+                'service': oci.database.DatabaseClient(config, signer=signer),
+                'get-method': 'get_database',
+                'tag-update-method': 'update_database',
+                'tag-updater-model-module': 'oci.database.models',
+                'tag-updater-model-class': 'UpdateDatabaseDetails',
+                'id-parameter-name': 'database_id',
+                'details-parameter-name': 'update_database_details'
+            },
+            'dbsystem': {
+                'service': oci.database.DatabaseClient(config, signer=signer),
+                'get-method': 'get_db_system',
+                'tag-update-method': 'update_db_system',
+                'tag-updater-model-module': 'oci.database.models',
+                'tag-updater-model-class': 'UpdateDbSystemDetails',
+                'id-parameter-name': 'db_system_id',
+                'details-parameter-name': 'update_db_system_details'
+            },
+            'cluster': {
+                'service': oci.container_engine.ContainerEngineClient(config, signer=signer),
+                'get-method': 'get_cluster',
+                'tag-update-method': 'update_cluster',
+                'tag-updater-model-module': 'oci.container_engine.models',
+                'tag-updater-model-class': 'UpdateClusterDetails',
+                'id-parameter-name': 'cluster_id',
+                'details-parameter-name': 'update_cluster_details'
+            },
+            'nodepool': {
+                'service': oci.container_engine.ContainerEngineClient(config, signer=signer),
+                'get-method': 'get_node_pool',
+                'tag-update-method': 'update_node_pool',
+                'tag-updater-model-module': 'oci.container_engine.models',
+                'tag-updater-model-class': 'UpdateNodePoolDetails',
+                'id-parameter-name': 'node_pool_id',
+                'details-parameter-name': 'update_node_pool_details'
             }
         }
 
@@ -71,8 +107,13 @@ class OCIClient:
             raise Exception('No Resource API for ' + resource_type)
         else:
             service = resource_API['service']
-            get_method = getattr(service, resource_API['get-method'])
-            return get_method(ocid)
+
+            try:
+                get_method = getattr(service, resource_API['get-method'])
+                return get_method(ocid)
+            except Exception as e:
+                print('Error trying to get resource by id', ocid)
+                print(e)
 
     def set_resource_tags(self, ocid, defined_tags, freeform_tags):
 
@@ -98,6 +139,10 @@ class OCIClient:
                     )
             }
 
-            tag_update_method(**update_parameters)
+            try:
+                tag_update_method(**update_parameters)
+            except Exception as e:
+                print('Error trying to update resource for id', ocid)
+                print(e)
 
 

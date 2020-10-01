@@ -5,6 +5,7 @@ import json
 import sys
 import copy
 import argparse
+import terraform_utils
 
 DEFAULT_WORK_PATH = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'workspace'))
 CONFIG_FILE_NAME = 'config.yaml'
@@ -67,8 +68,11 @@ def plan_project_resource_item(project_settings, oci_client, resource_ocid):
 
     if not resource is None:
 
-        current_resource_defined_tags = resource.data.defined_tags
-        current_resource_freeform_tags = resource.data.freeform_tags
+        try:
+            current_resource_defined_tags = resource.data.defined_tags
+            current_resource_freeform_tags = resource.data.freeform_tags
+        except:
+            return None
 
         new_resource_defined_tags, new_resource_freeform_tags = get_new_resource_tags(project_settings, current_resource_defined_tags, current_resource_freeform_tags)
 
@@ -78,7 +82,7 @@ def plan_project_resource_item(project_settings, oci_client, resource_ocid):
                 'resource-compartment-id': resource.data.compartment_id,
                 'current-tags': {'defined_tags': current_resource_defined_tags, 'freeform_tags': current_resource_freeform_tags},
                 'new-tags': {'defined_tags': new_resource_defined_tags, 'freeform_tags': new_resource_freeform_tags}
-            }
+        }
 
     else:
 
@@ -112,6 +116,12 @@ def plan_project(base_path, oci_client, config, project_name):
 
     project_settings = config[project_name + '-settings']
     project_resources_file_name = project_settings['resources-file-name']
+    project_resources_terraform_path = project_settings['resources-terraform-path']
+
+    if project_resources_terraform_path:
+        terraform_project_resources = terraform_utils.get_output(project_resources_terraform_path)
+        with open(os.path.join(base_path, project_resources_file_name), 'w') as f:
+            f.write(json.dumps(terraform_project_resources, indent=4))
 
     with open(os.path.join(base_path, project_resources_file_name)) as f:
         project_resources = json.loads(f.read())

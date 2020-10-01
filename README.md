@@ -26,6 +26,7 @@ Python tools fior OCI infraestructure
 A "retagging project" is a specific configuration which includes:
 
 * Infraestructure to be retagged, in the form of a json output from Terraform backend tfstate.
+* If a Terraform folder is specified for each project, Terraform will be invoked to jet the json output from Terraform backend tfstate.
 * Rules for declaring tag/values to ensure in the project infraestructure resources
 * Rules for declaring tags to exclude from the project infraestructure resources
 

@@ -1,0 +1,582 @@
+{
+    "Compute_Instances": {
+        "sensitive": false,
+        "type": [
+            "tuple",
+            [
+                [
+                    "object",
+                    {
+                        "agent_config": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "is_management_disabled": "bool",
+                                    "is_monitoring_disabled": "bool"
+                                }
+                            ]
+                        ],
+                        "availability_config": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "recovery_action": "string"
+                                }
+                            ]
+                        ],
+                        "availability_domain": "string",
+                        "boot_volume_id": "string",
+                        "compartment_id": "string",
+                        "create_vnic_details": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "assign_public_ip": "string",
+                                    "defined_tags": [
+                                        "map",
+                                        "string"
+                                    ],
+                                    "display_name": "string",
+                                    "freeform_tags": [
+                                        "map",
+                                        "string"
+                                    ],
+                                    "hostname_label": "string",
+                                    "nsg_ids": [
+                                        "set",
+                                        "string"
+                                    ],
+                                    "private_ip": "string",
+                                    "skip_source_dest_check": "bool",
+                                    "subnet_id": "string",
+                                    "vlan_id": "string"
+                                }
+                            ]
+                        ],
+                        "dedicated_vm_host_id": "string",
+                        "defined_tags": [
+                            "map",
+                            "string"
+                        ],
+                        "display_name": "string",
+                        "extended_metadata": [
+                            "map",
+                            "string"
+                        ],
+                        "fault_domain": "string",
+                        "freeform_tags": [
+                            "map",
+                            "string"
+                        ],
+                        "hostname_label": "string",
+                        "id": "string",
+                        "image": "string",
+                        "ipxe_script": "string",
+                        "is_pv_encryption_in_transit_enabled": "bool",
+                        "launch_mode": "string",
+                        "launch_options": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "boot_volume_type": "string",
+                                    "firmware": "string",
+                                    "is_consistent_volume_naming_enabled": "bool",
+                                    "is_pv_encryption_in_transit_enabled": "bool",
+                                    "network_type": "string",
+                                    "remote_data_volume_type": "string"
+                                }
+                            ]
+                        ],
+                        "metadata": [
+                            "map",
+                            "string"
+                        ],
+                        "preserve_boot_volume": "bool",
+                        "private_ip": "string",
+                        "public_ip": "string",
+                        "region": "string",
+                        "shape": "string",
+                        "shape_config": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "gpu_description": "string",
+                                    "gpus": "number",
+                                    "local_disk_description": "string",
+                                    "local_disks": "number",
+                                    "local_disks_total_size_in_gbs": "number",
+                                    "max_vnic_attachments": "number",
+                                    "memory_in_gbs": "number",
+                                    "networking_bandwidth_in_gbps": "number",
+                                    "ocpus": "number",
+                                    "processor_description": "string"
+                                }
+                            ]
+                        ],
+                        "source_details": [
+                            "list",
+                            [
+                                "object",
+                                {
+                                    "boot_volume_size_in_gbs": "string",
+                                    "kms_key_id": "string",
+                                    "source_id": "string",
+                                    "source_type": "string"
+                                }
+                            ]
+                        ],
+                        "state": "string",
+                        "subnet_id": "string",
+                        "system_tags": [
+                            "map",
+                            "string"
+                        ],
+                        "time_created": "string",
+                        "time_maintenance_reboot_due": "string",
+                        "timeouts": [
+                            "object",
+                            {
+                                "create": "string",
+                                "delete": "string",
+                                "update": "string"
+                            }
+                        ]
+                    }
+                ]
+            ]
+        ],
+        "value": [
+            {
+                "agent_config": [
+                    {
+                        "is_management_disabled": false,
+                        "is_monitoring_disabled": false
+                    }
+                ],
+                "availability_config": [
+                    {
+                        "recovery_action": "RESTORE_INSTANCE"
+                    }
+                ],
+                "availability_domain": "gVeo:US-ASHBURN-AD-1",
+                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljrltannvzu7iz5p7ylcbe6xmtriagzzujcaacle6uvvpj7czikagla",
+                "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                "create_vnic_details": [
+                    {
+                        "assign_public_ip": "false",
+                        "defined_tags": {
+                            "J2C_CORE.CreadoPor": "bchiac_user_auto",
+                            "J2C_CORE.FechaCreacion": "2020-10-01T15:46:31.005Z"
+                        },
+                        "display_name": "primaryvnic",
+                        "freeform_tags": {},
+                        "hostname_label": "pashsbtestkepivotlm0101",
+                        "nsg_ids": null,
+                        "private_ip": "10.250.201.83",
+                        "skip_source_dest_check": false,
+                        "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
+                        "vlan_id": ""
+                    }
+                ],
+                "dedicated_vm_host_id": null,
+                "defined_tags": {
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
+                    "J2C_CORE.FechaCreacion": "2020-10-01T15:46:30.780Z"
+                },
+                "display_name": "pashsbtestkepivotlm0101",
+                "extended_metadata": null,
+                "fault_domain": "FAULT-DOMAIN-1",
+                "freeform_tags": {},
+                "hostname_label": "pashsbtestkepivotlm0101",
+                "id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7ic44e44stqz5amkbkrsxghra3zq4ao5nknpj5gisieia7a",
+                "image": "ocid1.image.oc1.iad.aaaaaaaaqz6cdj63weoujgrshezrcs7ajn7fghrggrjcv5ngtpshbpy4xcjq",
+                "ipxe_script": null,
+                "is_pv_encryption_in_transit_enabled": null,
+                "launch_mode": "NATIVE",
+                "launch_options": [
+                    {
+                        "boot_volume_type": "PARAVIRTUALIZED",
+                        "firmware": "UEFI_64",
+                        "is_consistent_volume_naming_enabled": true,
+                        "is_pv_encryption_in_transit_enabled": false,
+                        "network_type": "PARAVIRTUALIZED",
+                        "remote_data_volume_type": "PARAVIRTUALIZED"
+                    }
+                ],
+                "metadata": {
+                    "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
+                },
+                "preserve_boot_volume": null,
+                "private_ip": "10.250.201.83",
+                "public_ip": "",
+                "region": "iad",
+                "shape": "VM.Standard2.1",
+                "shape_config": [
+                    {
+                        "gpu_description": "",
+                        "gpus": 0,
+                        "local_disk_description": "",
+                        "local_disks": 0,
+                        "local_disks_total_size_in_gbs": 0,
+                        "max_vnic_attachments": 2,
+                        "memory_in_gbs": 15,
+                        "networking_bandwidth_in_gbps": 1,
+                        "ocpus": 1,
+                        "processor_description": "2.0 GHz Intel\u00ae Xeon\u00ae Platinum 8167M (Skylake)"
+                    }
+                ],
+                "source_details": [
+                    {
+                        "boot_volume_size_in_gbs": "150",
+                        "kms_key_id": "",
+                        "source_id": "ocid1.image.oc1.iad.aaaaaaaaqz6cdj63weoujgrshezrcs7ajn7fghrggrjcv5ngtpshbpy4xcjq",
+                        "source_type": "image"
+                    }
+                ],
+                "state": "RUNNING",
+                "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
+                "system_tags": {},
+                "time_created": "2020-10-01 15:46:31.571 +0000 UTC",
+                "time_maintenance_reboot_due": "",
+                "timeouts": {
+                    "create": "15m",
+                    "delete": null,
+                    "update": null
+                }
+            }
+        ]
+    },
+    "OKE_Instance": {
+        "sensitive": false,
+        "type": [
+            "object",
+            {
+                "available_kubernetes_upgrades": [
+                    "list",
+                    "string"
+                ],
+                "compartment_id": "string",
+                "endpoints": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "kubernetes": "string"
+                        }
+                    ]
+                ],
+                "id": "string",
+                "kms_key_id": "string",
+                "kubernetes_version": "string",
+                "lifecycle_details": "string",
+                "metadata": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "created_by_user_id": "string",
+                            "created_by_work_request_id": "string",
+                            "deleted_by_user_id": "string",
+                            "deleted_by_work_request_id": "string",
+                            "time_created": "string",
+                            "time_deleted": "string",
+                            "time_updated": "string",
+                            "updated_by_user_id": "string",
+                            "updated_by_work_request_id": "string"
+                        }
+                    ]
+                ],
+                "name": "string",
+                "options": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "add_ons": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "is_kubernetes_dashboard_enabled": "bool",
+                                        "is_tiller_enabled": "bool"
+                                    }
+                                ]
+                            ],
+                            "admission_controller_options": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "is_pod_security_policy_enabled": "bool"
+                                    }
+                                ]
+                            ],
+                            "kubernetes_network_config": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "pods_cidr": "string",
+                                        "services_cidr": "string"
+                                    }
+                                ]
+                            ],
+                            "service_lb_subnet_ids": [
+                                "list",
+                                "string"
+                            ]
+                        }
+                    ]
+                ],
+                "state": "string",
+                "timeouts": [
+                    "object",
+                    {
+                        "create": "string",
+                        "delete": "string",
+                        "update": "string"
+                    }
+                ],
+                "vcn_id": "string"
+            }
+        ],
+        "value": {
+            "available_kubernetes_upgrades": [
+                "v1.16.8"
+            ],
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+            "endpoints": [
+                {
+                    "kubernetes": "147.154.24.189:6443"
+                }
+            ],
+            "id": "ocid1.cluster.oc1.iad.aaaaaaaaae4dsmjzgq3dmmrymu2tizbwgmzggnrvmuytcnlbmcrwmmbwmiyw",
+            "kms_key_id": null,
+            "kubernetes_version": "v1.15.7",
+            "lifecycle_details": "",
+            "metadata": [
+                {
+                    "created_by_user_id": "ocid1.user.oc1..aaaaaaaaxeawnaff2otacw72imrxrw4wlwpqnfynnwoikqrblgtksbyc6bsq",
+                    "created_by_work_request_id": "ocid1.clustersworkrequest.oc1.iad.aaaaaaaaae4dgmdcmqzwmnjyg42diylcmqydszbxgbrweodcgwswgmrzgnqw",
+                    "deleted_by_user_id": "",
+                    "deleted_by_work_request_id": "",
+                    "time_created": "2020-10-01 15:46:33 +0000 UTC",
+                    "time_deleted": "",
+                    "time_updated": "",
+                    "updated_by_user_id": "",
+                    "updated_by_work_request_id": ""
+                }
+            ],
+            "name": "pashsbtestpivotelm01",
+            "options": [
+                {
+                    "add_ons": [
+                        {
+                            "is_kubernetes_dashboard_enabled": true,
+                            "is_tiller_enabled": true
+                        }
+                    ],
+                    "admission_controller_options": [
+                        {
+                            "is_pod_security_policy_enabled": false
+                        }
+                    ],
+                    "kubernetes_network_config": [
+                        {
+                            "pods_cidr": "10.244.0.0/16",
+                            "services_cidr": "10.96.0.0/16"
+                        }
+                    ],
+                    "service_lb_subnet_ids": [
+                        "ocid1.subnet.oc1.iad.aaaaaaaa5rqtcl2eygw2isaju57ba3f5dvtmckuoj723cuulke4krgaf2jdq"
+                    ]
+                }
+            ],
+            "state": "ACTIVE",
+            "timeouts": null,
+            "vcn_id": "ocid1.vcn.oc1.iad.amaaaaaa4pu6a7ianoafuljf4vcyrpwjupkq3x4g23nrfjguvvzdlvkhkxvq"
+        }
+    },
+    "OKE_Instance_Pool": {
+        "sensitive": false,
+        "type": [
+            "object",
+            {
+                "cluster_id": "string",
+                "compartment_id": "string",
+                "id": "string",
+                "initial_node_labels": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "key": "string",
+                            "value": "string"
+                        }
+                    ]
+                ],
+                "kubernetes_version": "string",
+                "name": "string",
+                "node_config_details": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "placement_configs": [
+                                "set",
+                                [
+                                    "object",
+                                    {
+                                        "availability_domain": "string",
+                                        "subnet_id": "string"
+                                    }
+                                ]
+                            ],
+                            "size": "number"
+                        }
+                    ]
+                ],
+                "node_image_id": "string",
+                "node_image_name": "string",
+                "node_metadata": [
+                    "map",
+                    "string"
+                ],
+                "node_shape": "string",
+                "node_shape_config": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "ocpus": "number"
+                        }
+                    ]
+                ],
+                "node_source": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "image_id": "string",
+                            "source_name": "string",
+                            "source_type": "string"
+                        }
+                    ]
+                ],
+                "node_source_details": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "boot_volume_size_in_gbs": "string",
+                            "image_id": "string",
+                            "source_type": "string"
+                        }
+                    ]
+                ],
+                "nodes": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "availability_domain": "string",
+                            "error": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "code": "string",
+                                        "message": "string",
+                                        "status": "string"
+                                    }
+                                ]
+                            ],
+                            "fault_domain": "string",
+                            "id": "string",
+                            "kubernetes_version": "string",
+                            "lifecycle_details": "string",
+                            "name": "string",
+                            "node_pool_id": "string",
+                            "private_ip": "string",
+                            "public_ip": "string",
+                            "state": "string",
+                            "subnet_id": "string"
+                        }
+                    ]
+                ],
+                "quantity_per_subnet": "number",
+                "ssh_public_key": "string",
+                "subnet_ids": [
+                    "set",
+                    "string"
+                ],
+                "timeouts": [
+                    "object",
+                    {
+                        "create": "string",
+                        "delete": "string",
+                        "update": "string"
+                    }
+                ]
+            }
+        ],
+        "value": {
+            "cluster_id": "ocid1.cluster.oc1.iad.aaaaaaaaae4dsmjzgq3dmmrymu2tizbwgmzggnrvmuytcnlbmcrwmmbwmiyw",
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+            "id": "ocid1.nodepool.oc1.iad.aaaaaaaaae4ggzleheydcmldhfqwemlegq4tmojzgm3ggojzgnzdimbrmm4t",
+            "initial_node_labels": [],
+            "kubernetes_version": "v1.15.7",
+            "name": "pashsbtestpivotelm_np01",
+            "node_config_details": [
+                {
+                    "placement_configs": [
+                        {
+                            "availability_domain": "gVeo:US-ASHBURN-AD-1",
+                            "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaab6dxm465fkxovblmw5juvnxbnfumrwnuxbrxhoa2uefbymj4dsla"
+                        },
+                        {
+                            "availability_domain": "gVeo:US-ASHBURN-AD-2",
+                            "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaab6dxm465fkxovblmw5juvnxbnfumrwnuxbrxhoa2uefbymj4dsla"
+                        },
+                        {
+                            "availability_domain": "gVeo:US-ASHBURN-AD-3",
+                            "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaab6dxm465fkxovblmw5juvnxbnfumrwnuxbrxhoa2uefbymj4dsla"
+                        }
+                    ],
+                    "size": 1
+                }
+            ],
+            "node_image_id": "ocid1.image.oc1.iad.aaaaaaaa6tp7lhyrcokdtf7vrbmxyp2pctgg4uxvt4jz4vc47qoc2ec4anha",
+            "node_image_name": "Oracle-Linux-7.7-2020.03.23-0",
+            "node_metadata": {},
+            "node_shape": "VM.Standard2.1",
+            "node_shape_config": [],
+            "node_source": [
+                {
+                    "image_id": "ocid1.image.oc1.iad.aaaaaaaa6tp7lhyrcokdtf7vrbmxyp2pctgg4uxvt4jz4vc47qoc2ec4anha",
+                    "source_name": "Oracle-Linux-7.7-2020.03.23-0",
+                    "source_type": "IMAGE"
+                }
+            ],
+            "node_source_details": [
+                {
+                    "boot_volume_size_in_gbs": "",
+                    "image_id": "ocid1.image.oc1.iad.aaaaaaaa6tp7lhyrcokdtf7vrbmxyp2pctgg4uxvt4jz4vc47qoc2ec4anha",
+                    "source_type": "IMAGE"
+                }
+            ],
+            "nodes": [],
+            "quantity_per_subnet": 0,
+            "ssh_public_key": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n",
+            "subnet_ids": [
+                "ocid1.subnet.oc1.iad.aaaaaaaab6dxm465fkxovblmw5juvnxbnfumrwnuxbrxhoa2uefbymj4dsla"
+            ],
+            "timeouts": null
+        }
+    }
+}

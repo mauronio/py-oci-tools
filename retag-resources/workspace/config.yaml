@@ -2,10 +2,13 @@ oci-config-filename: ~/.oci/config
 oci-config-profile-name: DEFAULT
 
 projects:
-  - wls_test_oci_tags_1.0
+#  - wls_test_oci_tags_1.0
+#  - osb_infra_jenkins_mgc
+  - pashsb_test_pivotelm
 
 wls_test_oci_tags_1.0-settings:
   resources-file-name: wls_test_oci_tags_1.0.json
+  resources-terraform-path: /home/opc/features/ER_MGOMEZ_TAG_UPDATE/sandbox_live_ash/wls_infra_mgc_v1.0
   ensure-tags:
     defined-tags:
       J2C_CORE:
@@ -21,3 +24,26 @@ wls_test_oci_tags_1.0-settings:
         - Recycle_Shutdown_Time
     freeform-tags:
       - random_tag3
+
+osb_infra_jenkins_mgc-settings:
+  resources-file-name: osb_infra_jenkins_mgc.json
+  resources-terraform-path: /home/opc/features/ER_MGOMEZ_TAG_UPDATE/sandbox_live_ash/osb_infra_jenkins_mgc
+  ensure-tags:
+    defined-tags:
+      J2C_CORE:
+        Region: ASH
+        Sistema: TEST OSB STATIC
+    freeform-tags:
+      random_tag: anyvalue3
+
+pashsb_test_pivotelm-settings:
+  resources-file-name: pashsb_test_pivotelm.json
+  resources-terraform-path: /home/opc/features/ER_MGOMEZ_TAG_UPDATE/sandbox_live_ash/pashsb_test_pivotelm
+  ensure-tags:
+    defined-tags:
+      J2C_CORE:
+        Region: ASH
+        Sistema: TEST OKE
+    freeform-tags:
+      random_tag: anyvalue4
+      

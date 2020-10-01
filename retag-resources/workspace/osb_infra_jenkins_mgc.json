@@ -1,9 +1,4 @@
 {
-    "Compartment_Name": {
-        "sensitive": false,
-        "type": "string",
-        "value": "SANDBOX_Oracle_ACS"
-    },
     "Compute_Instances": {
         "sensitive": false,
         "type": [
@@ -556,72 +551,72 @@
                     }
                 ],
                 "availability_domain": "gVeo:US-ASHBURN-AD-1",
-                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljrltipdpcgqhnfw4pkbbsrjx4quzqmcawyyw4nqehscwfaf6ylbqfa",
+                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljr34eokdp2ephrne7xxmzuh3zxcst2ukx7up5e76m7kgiz7cyzyg2a",
                 "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
                 "create_vnic_details": [
                     {
                         "assign_public_ip": "false",
                         "defined_tags": {
-                            "J2C_CORE.Ambiente": "sandbox",
-                            "J2C_CORE.Artefacto": "",
-                            "J2C_CORE.Automatizado": "",
+                            "J2C_CORE.Ambiente": "SANDBOX",
+                            "J2C_CORE.Artefacto": "OSB12213",
+                            "J2C_CORE.Automatizado": "true",
                             "J2C_CORE.CUI/SAP": "",
                             "J2C_CORE.Cliente": "",
                             "J2C_CORE.Confidencialidad": "",
-                            "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                            "J2C_CORE.CreadoPor": "bchiac_user_auto",
                             "J2C_CORE.CuentaContable": "",
                             "J2C_CORE.Cumplimiento": "",
                             "J2C_CORE.DuenoDeServicio": "",
                             "J2C_CORE.FechaCreacion": "",
                             "J2C_CORE.Funcionalidad": "",
                             "J2C_CORE.Nombre": "",
-                            "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                            "J2C_CORE.Proyecto": "Mi_Banco",
                             "J2C_CORE.RecycleFlag": "",
                             "J2C_CORE.Recycle_Shutdown_Time": "",
                             "J2C_CORE.Recycle_Startup_Time": "",
-                            "J2C_CORE.Region": "",
-                            "J2C_CORE.Sistema": "",
-                            "J2C_CORE.Version": "1.0"
+                            "J2C_CORE.Region": "ash",
+                            "J2C_CORE.Sistema": "OSB12213",
+                            "J2C_CORE.Version": "Cloud_Ready"
                         },
                         "display_name": "primaryvnic",
                         "freeform_tags": {},
-                        "hostname_label": "wlsserver01",
-                        "nsg_ids": [],
-                        "private_ip": "10.250.201.79",
+                        "hostname_label": "lashsbociosbmgomez01",
+                        "nsg_ids": null,
+                        "private_ip": "10.250.200.236",
                         "skip_source_dest_check": false,
                         "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq"
                     }
                 ],
                 "dedicated_vm_host_id": null,
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "RAPONCHI",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wlsserver01",
-                "extended_metadata": {},
+                "display_name": "lashsbociosbmgomez01",
+                "extended_metadata": null,
                 "fault_domain": "FAULT-DOMAIN-1",
                 "freeform_tags": {},
-                "hostname_label": "wlsserver01",
-                "id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7icog45bgvtqcgw2uovkrktzrpcsqszntx5mvq7gjnpc7vq",
-                "image": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                "hostname_label": "lashsbociosbmgomez01",
+                "id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7ic5yaxnagyrb3g2znlit7hjmbdkqg6knctdoocavcx5lva",
+                "image": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                 "ipxe_script": null,
                 "is_pv_encryption_in_transit_enabled": null,
                 "launch_mode": "NATIVE",
@@ -639,7 +634,7 @@
                     "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
                 },
                 "preserve_boot_volume": null,
-                "private_ip": "10.250.201.79",
+                "private_ip": "10.250.200.236",
                 "public_ip": "",
                 "region": "iad",
                 "shape": "VM.Standard2.1",
@@ -661,14 +656,14 @@
                     {
                         "boot_volume_size_in_gbs": "150",
                         "kms_key_id": "",
-                        "source_id": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                        "source_id": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                         "source_type": "image"
                     }
                 ],
                 "state": "RUNNING",
                 "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
                 "system_tags": {},
-                "time_created": "2020-09-29 02:46:38.439 +0000 UTC",
+                "time_created": "2020-09-14 14:58:45.679 +0000 UTC",
                 "time_maintenance_reboot_due": "",
                 "timeouts": {
                     "create": "15m",
@@ -684,72 +679,72 @@
                     }
                 ],
                 "availability_domain": "gVeo:US-ASHBURN-AD-2",
-                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljsrmi5co7lriqifcgaj347yyfh23e4c4ssq7ygj2or7ewp2hqxnxbq",
+                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljslhj434oicayxh5wmp33ll5vhlkfgyrgjufm2zcoakm7awtr6pasa",
                 "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
                 "create_vnic_details": [
                     {
                         "assign_public_ip": "false",
                         "defined_tags": {
-                            "J2C_CORE.Ambiente": "sandbox",
-                            "J2C_CORE.Artefacto": "",
-                            "J2C_CORE.Automatizado": "",
+                            "J2C_CORE.Ambiente": "SANDBOX",
+                            "J2C_CORE.Artefacto": "OSB12213",
+                            "J2C_CORE.Automatizado": "true",
                             "J2C_CORE.CUI/SAP": "",
                             "J2C_CORE.Cliente": "",
                             "J2C_CORE.Confidencialidad": "",
-                            "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                            "J2C_CORE.CreadoPor": "bchiac_user_auto",
                             "J2C_CORE.CuentaContable": "",
                             "J2C_CORE.Cumplimiento": "",
                             "J2C_CORE.DuenoDeServicio": "",
                             "J2C_CORE.FechaCreacion": "",
                             "J2C_CORE.Funcionalidad": "",
                             "J2C_CORE.Nombre": "",
-                            "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                            "J2C_CORE.Proyecto": "Mi_Banco",
                             "J2C_CORE.RecycleFlag": "",
                             "J2C_CORE.Recycle_Shutdown_Time": "",
                             "J2C_CORE.Recycle_Startup_Time": "",
-                            "J2C_CORE.Region": "",
-                            "J2C_CORE.Sistema": "",
-                            "J2C_CORE.Version": "1.0"
+                            "J2C_CORE.Region": "ash",
+                            "J2C_CORE.Sistema": "OSB12213",
+                            "J2C_CORE.Version": "Cloud_Ready"
                         },
                         "display_name": "primaryvnic",
                         "freeform_tags": {},
-                        "hostname_label": "wlsserver02",
-                        "nsg_ids": [],
-                        "private_ip": "10.250.201.80",
+                        "hostname_label": "lashsbociosbmgomez02",
+                        "nsg_ids": null,
+                        "private_ip": "10.250.200.234",
                         "skip_source_dest_check": false,
                         "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq"
                     }
                 ],
                 "dedicated_vm_host_id": null,
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wlsserver02",
-                "extended_metadata": {},
+                "display_name": "lashsbociosbmgomez02",
+                "extended_metadata": null,
                 "fault_domain": "FAULT-DOMAIN-2",
                 "freeform_tags": {},
-                "hostname_label": "wlsserver02",
-                "id": "ocid1.instance.oc1.iad.anuwcljs4pu6a7icd4io4zqz45z2hhnzkjpb744zpgtw76j7rvp5sxrpsypq",
-                "image": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                "hostname_label": "lashsbociosbmgomez02",
+                "id": "ocid1.instance.oc1.iad.anuwcljs4pu6a7icojo3g7fdn7hjmf6nxc2eguc7qivhdjvrku26dtn56fpq",
+                "image": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                 "ipxe_script": null,
                 "is_pv_encryption_in_transit_enabled": null,
                 "launch_mode": "NATIVE",
@@ -767,7 +762,7 @@
                     "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
                 },
                 "preserve_boot_volume": null,
-                "private_ip": "10.250.201.80",
+                "private_ip": "10.250.200.234",
                 "public_ip": "",
                 "region": "iad",
                 "shape": "VM.Standard2.1",
@@ -789,14 +784,14 @@
                     {
                         "boot_volume_size_in_gbs": "150",
                         "kms_key_id": "",
-                        "source_id": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                        "source_id": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                         "source_type": "image"
                     }
                 ],
                 "state": "RUNNING",
                 "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
                 "system_tags": {},
-                "time_created": "2020-09-29 02:46:38.451 +0000 UTC",
+                "time_created": "2020-09-14 14:58:45.807 +0000 UTC",
                 "time_maintenance_reboot_due": "",
                 "timeouts": {
                     "create": "15m",
@@ -812,72 +807,72 @@
                     }
                 ],
                 "availability_domain": "gVeo:US-ASHBURN-AD-3",
-                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljt2jn7nny6hy6guhhwy3rolpjda555hdrlrmm2q7xzjkzhrmsrxdqa",
+                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljt4fosos5qq7w7pyncg7hi2dyt252alokwtpcg6sm57mitek4e55wa",
                 "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
                 "create_vnic_details": [
                     {
                         "assign_public_ip": "false",
                         "defined_tags": {
-                            "J2C_CORE.Ambiente": "sandbox",
-                            "J2C_CORE.Artefacto": "",
-                            "J2C_CORE.Automatizado": "",
+                            "J2C_CORE.Ambiente": "SANDBOX",
+                            "J2C_CORE.Artefacto": "OSB12213",
+                            "J2C_CORE.Automatizado": "true",
                             "J2C_CORE.CUI/SAP": "",
                             "J2C_CORE.Cliente": "",
                             "J2C_CORE.Confidencialidad": "",
-                            "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                            "J2C_CORE.CreadoPor": "bchiac_user_auto",
                             "J2C_CORE.CuentaContable": "",
                             "J2C_CORE.Cumplimiento": "",
                             "J2C_CORE.DuenoDeServicio": "",
                             "J2C_CORE.FechaCreacion": "",
                             "J2C_CORE.Funcionalidad": "",
                             "J2C_CORE.Nombre": "",
-                            "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                            "J2C_CORE.Proyecto": "Mi_Banco",
                             "J2C_CORE.RecycleFlag": "",
                             "J2C_CORE.Recycle_Shutdown_Time": "",
                             "J2C_CORE.Recycle_Startup_Time": "",
-                            "J2C_CORE.Region": "",
-                            "J2C_CORE.Sistema": "",
-                            "J2C_CORE.Version": "1.0"
+                            "J2C_CORE.Region": "ash",
+                            "J2C_CORE.Sistema": "OSB12213",
+                            "J2C_CORE.Version": "Cloud_Ready"
                         },
                         "display_name": "primaryvnic",
                         "freeform_tags": {},
-                        "hostname_label": "wlsserver03",
-                        "nsg_ids": [],
-                        "private_ip": "10.250.201.81",
+                        "hostname_label": "lashsbociosbmgomez03",
+                        "nsg_ids": null,
+                        "private_ip": "10.250.200.237",
                         "skip_source_dest_check": false,
                         "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq"
                     }
                 ],
                 "dedicated_vm_host_id": null,
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wlsserver03",
-                "extended_metadata": {},
-                "fault_domain": "FAULT-DOMAIN-2",
+                "display_name": "lashsbociosbmgomez03",
+                "extended_metadata": null,
+                "fault_domain": "FAULT-DOMAIN-3",
                 "freeform_tags": {},
-                "hostname_label": "wlsserver03",
-                "id": "ocid1.instance.oc1.iad.anuwcljt4pu6a7icia3sj3pgbc4662suetu25vv4k4lvlz2n7epcgf47gjhq",
-                "image": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                "hostname_label": "lashsbociosbmgomez03",
+                "id": "ocid1.instance.oc1.iad.anuwcljt4pu6a7icq5lx5powbvsm4aaz4z6akl4dglftqkjw7z5wq5zo6vvq",
+                "image": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                 "ipxe_script": null,
                 "is_pv_encryption_in_transit_enabled": null,
                 "launch_mode": "NATIVE",
@@ -895,7 +890,7 @@
                     "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
                 },
                 "preserve_boot_volume": null,
-                "private_ip": "10.250.201.81",
+                "private_ip": "10.250.200.237",
                 "public_ip": "",
                 "region": "iad",
                 "shape": "VM.Standard2.1",
@@ -917,14 +912,14 @@
                     {
                         "boot_volume_size_in_gbs": "150",
                         "kms_key_id": "",
-                        "source_id": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                        "source_id": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                         "source_type": "image"
                     }
                 ],
                 "state": "RUNNING",
                 "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
                 "system_tags": {},
-                "time_created": "2020-09-29 02:46:38.34 +0000 UTC",
+                "time_created": "2020-09-14 14:58:45.805 +0000 UTC",
                 "time_maintenance_reboot_due": "",
                 "timeouts": {
                     "create": "15m",
@@ -940,72 +935,72 @@
                     }
                 ],
                 "availability_domain": "gVeo:US-ASHBURN-AD-1",
-                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljrangut2q7uawlubprxotnu5ug53ifsftkvaggzkfxmbazhyrjxhaa",
+                "boot_volume_id": "ocid1.bootvolume.oc1.iad.abuwcljrrovwu5nfvrjch3kcg4q2lqwp4xuk5jtqlsoc4dpylcqcwo7m3gha",
                 "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
                 "create_vnic_details": [
                     {
                         "assign_public_ip": "false",
                         "defined_tags": {
-                            "J2C_CORE.Ambiente": "sandbox",
-                            "J2C_CORE.Artefacto": "",
-                            "J2C_CORE.Automatizado": "",
+                            "J2C_CORE.Ambiente": "SANDBOX",
+                            "J2C_CORE.Artefacto": "OSB12213",
+                            "J2C_CORE.Automatizado": "true",
                             "J2C_CORE.CUI/SAP": "",
                             "J2C_CORE.Cliente": "",
                             "J2C_CORE.Confidencialidad": "",
-                            "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                            "J2C_CORE.CreadoPor": "bchiac_user_auto",
                             "J2C_CORE.CuentaContable": "",
                             "J2C_CORE.Cumplimiento": "",
                             "J2C_CORE.DuenoDeServicio": "",
                             "J2C_CORE.FechaCreacion": "",
                             "J2C_CORE.Funcionalidad": "",
                             "J2C_CORE.Nombre": "",
-                            "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                            "J2C_CORE.Proyecto": "Mi_Banco",
                             "J2C_CORE.RecycleFlag": "",
                             "J2C_CORE.Recycle_Shutdown_Time": "",
                             "J2C_CORE.Recycle_Startup_Time": "",
-                            "J2C_CORE.Region": "",
-                            "J2C_CORE.Sistema": "",
-                            "J2C_CORE.Version": "1.0"
+                            "J2C_CORE.Region": "ash",
+                            "J2C_CORE.Sistema": "OSB12213",
+                            "J2C_CORE.Version": "Cloud_Ready"
                         },
                         "display_name": "primaryvnic",
                         "freeform_tags": {},
-                        "hostname_label": "wlsserver04",
-                        "nsg_ids": [],
-                        "private_ip": "10.250.201.78",
+                        "hostname_label": "lashsbociosbmgomez04",
+                        "nsg_ids": null,
+                        "private_ip": "10.250.200.235",
                         "skip_source_dest_check": false,
                         "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq"
                     }
                 ],
                 "dedicated_vm_host_id": null,
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wlsserver04",
-                "extended_metadata": {},
-                "fault_domain": "FAULT-DOMAIN-1",
+                "display_name": "lashsbociosbmgomez04",
+                "extended_metadata": null,
+                "fault_domain": "FAULT-DOMAIN-2",
                 "freeform_tags": {},
-                "hostname_label": "wlsserver04",
-                "id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7ic3p536httfrnt6xj55muxcthz2rfslhpyvamonmji64nq",
-                "image": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                "hostname_label": "lashsbociosbmgomez04",
+                "id": "ocid1.instance.oc1.iad.anuwcljr4pu6a7ic4ugusl6rdnsaj2iakqm7gqwdqnh6fcps6jevelb232za",
+                "image": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                 "ipxe_script": null,
                 "is_pv_encryption_in_transit_enabled": null,
                 "launch_mode": "NATIVE",
@@ -1023,7 +1018,7 @@
                     "ssh_authorized_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
                 },
                 "preserve_boot_volume": null,
-                "private_ip": "10.250.201.78",
+                "private_ip": "10.250.200.235",
                 "public_ip": "",
                 "region": "iad",
                 "shape": "VM.Standard2.1",
@@ -1045,14 +1040,14 @@
                     {
                         "boot_volume_size_in_gbs": "150",
                         "kms_key_id": "",
-                        "source_id": "ocid1.image.oc1.iad.aaaaaaaaky5a3wiuu2n7fg3m7n6xqdwqyscgaf4wem3aqb6nyzoao6olkjca",
+                        "source_id": "ocid1.image.oc1.iad.aaaaaaaa5smgwt7p7s5yf6pooesf4tfeqpyxdwn2p7ahycyzcv5iwhc3mpzq",
                         "source_type": "image"
                     }
                 ],
                 "state": "RUNNING",
                 "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaayayfrylnbhrpx73bpz5vhevfkqhepbfyfrsl7jw5l65ag43qungq",
                 "system_tags": {},
-                "time_created": "2020-09-29 02:46:38.27 +0000 UTC",
+                "time_created": "2020-09-14 14:58:45.828 +0000 UTC",
                 "time_maintenance_reboot_due": "",
                 "timeouts": {
                     "create": "15m",
@@ -1060,6 +1055,436 @@
                     "update": null
                 }
             }
+        ]
+    },
+    "DBCS_Instances": {
+        "sensitive": false,
+        "type": [
+            "object",
+            {
+                "availability_domain": "string",
+                "backup_network_nsg_ids": [
+                    "set",
+                    "string"
+                ],
+                "backup_subnet_id": "string",
+                "cluster_name": "string",
+                "compartment_id": "string",
+                "cpu_core_count": "number",
+                "data_storage_percentage": "number",
+                "data_storage_size_in_gb": "number",
+                "database_edition": "string",
+                "db_home": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "database": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "admin_password": "string",
+                                        "backup_id": "string",
+                                        "backup_tde_password": "string",
+                                        "character_set": "string",
+                                        "connection_strings": [
+                                            "list",
+                                            [
+                                                "object",
+                                                {
+                                                    "all_connection_strings": [
+                                                        "map",
+                                                        "string"
+                                                    ],
+                                                    "cdb_default": "string",
+                                                    "cdb_ip_default": "string"
+                                                }
+                                            ]
+                                        ],
+                                        "db_backup_config": [
+                                            "list",
+                                            [
+                                                "object",
+                                                {
+                                                    "auto_backup_enabled": "bool",
+                                                    "auto_backup_window": "string",
+                                                    "backup_destination_details": [
+                                                        "list",
+                                                        [
+                                                            "object",
+                                                            {
+                                                                "id": "string",
+                                                                "type": "string"
+                                                            }
+                                                        ]
+                                                    ],
+                                                    "recovery_window_in_days": "number"
+                                                }
+                                            ]
+                                        ],
+                                        "db_name": "string",
+                                        "db_unique_name": "string",
+                                        "db_workload": "string",
+                                        "defined_tags": [
+                                            "map",
+                                            "string"
+                                        ],
+                                        "freeform_tags": [
+                                            "map",
+                                            "string"
+                                        ],
+                                        "id": "string",
+                                        "lifecycle_details": "string",
+                                        "ncharacter_set": "string",
+                                        "pdb_name": "string",
+                                        "state": "string",
+                                        "time_created": "string"
+                                    }
+                                ]
+                            ],
+                            "db_home_location": "string",
+                            "db_version": "string",
+                            "display_name": "string",
+                            "id": "string",
+                            "last_patch_history_entry_id": "string",
+                            "lifecycle_details": "string",
+                            "state": "string",
+                            "time_created": "string"
+                        }
+                    ]
+                ],
+                "db_system_options": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "storage_management": "string"
+                        }
+                    ]
+                ],
+                "defined_tags": [
+                    "map",
+                    "string"
+                ],
+                "disk_redundancy": "string",
+                "display_name": "string",
+                "domain": "string",
+                "fault_domains": [
+                    "list",
+                    "string"
+                ],
+                "freeform_tags": [
+                    "map",
+                    "string"
+                ],
+                "hostname": "string",
+                "id": "string",
+                "iorm_config_cache": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "db_plans": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "db_name": "string",
+                                        "flash_cache_limit": "string",
+                                        "share": "number"
+                                    }
+                                ]
+                            ],
+                            "db_system_id": "string",
+                            "lifecycle_details": "string",
+                            "objective": "string",
+                            "state": "string"
+                        }
+                    ]
+                ],
+                "last_maintenance_run_id": "string",
+                "last_patch_history_entry_id": "string",
+                "license_model": "string",
+                "lifecycle_details": "string",
+                "listener_port": "number",
+                "maintenance_window": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "days_of_week": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "name": "string"
+                                    }
+                                ]
+                            ],
+                            "hours_of_day": [
+                                "list",
+                                "number"
+                            ],
+                            "lead_time_in_weeks": "number",
+                            "months": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "name": "string"
+                                    }
+                                ]
+                            ],
+                            "preference": "string",
+                            "weeks_of_month": [
+                                "list",
+                                "number"
+                            ]
+                        }
+                    ]
+                ],
+                "maintenance_window_details": [
+                    "list",
+                    [
+                        "object",
+                        {
+                            "days_of_week": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "name": "string"
+                                    }
+                                ]
+                            ],
+                            "hours_of_day": [
+                                "list",
+                                "number"
+                            ],
+                            "lead_time_in_weeks": "number",
+                            "months": [
+                                "list",
+                                [
+                                    "object",
+                                    {
+                                        "name": "string"
+                                    }
+                                ]
+                            ],
+                            "preference": "string",
+                            "weeks_of_month": [
+                                "list",
+                                "number"
+                            ]
+                        }
+                    ]
+                ],
+                "next_maintenance_run_id": "string",
+                "node_count": "number",
+                "nsg_ids": [
+                    "set",
+                    "string"
+                ],
+                "reco_storage_size_in_gb": "number",
+                "scan_dns_record_id": "string",
+                "scan_ip_ids": [
+                    "list",
+                    "string"
+                ],
+                "shape": "string",
+                "source": "string",
+                "sparse_diskgroup": "bool",
+                "ssh_public_keys": [
+                    "set",
+                    "string"
+                ],
+                "state": "string",
+                "subnet_id": "string",
+                "time_created": "string",
+                "time_zone": "string",
+                "timeouts": [
+                    "object",
+                    {
+                        "create": "string",
+                        "delete": "string",
+                        "update": "string"
+                    }
+                ],
+                "version": "string",
+                "vip_ids": [
+                    "list",
+                    "string"
+                ]
+            }
+        ],
+        "value": {
+            "availability_domain": "gVeo:US-ASHBURN-AD-2",
+            "backup_network_nsg_ids": null,
+            "backup_subnet_id": null,
+            "cluster_name": "cadspmomb01",
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaaq2shftdk2oxaaq7gynves2noer7njeuo73l2taxiargbab3ysnqq",
+            "cpu_core_count": 4,
+            "data_storage_percentage": 80,
+            "data_storage_size_in_gb": 256,
+            "database_edition": "ENTERPRISE_EDITION_EXTREME_PERFORMANCE",
+            "db_home": [
+                {
+                    "database": [
+                        {
+                            "admin_password": "W3lC0m3_1#",
+                            "backup_id": "",
+                            "backup_tde_password": "",
+                            "character_set": "AL32UTF8",
+                            "connection_strings": [
+                                {
+                                    "all_connection_strings": {
+                                        "cdbDefault": "padosbpmosbmgomez01-scan.netsbxdbcs.vncsbxash.oraclevcn.com:1521/OSBMCDSV_iad2vj.netsbxdbcs.vncsbxash.oraclevcn.com",
+                                        "cdbIpDefault": "(DESCRIPTION=(CONNECT_TIMEOUT=5)(TRANSPORT_CONNECT_TIMEOUT=3)(RETRY_COUNT=3)(ADDRESS_LIST=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.171)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.172)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.173)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=OSBMCDSV_iad2vj.netsbxdbcs.vncsbxash.oraclevcn.com)))"
+                                    },
+                                    "cdb_default": "padosbpmosbmgomez01-scan.netsbxdbcs.vncsbxash.oraclevcn.com:1521/OSBMCDSV_iad2vj.netsbxdbcs.vncsbxash.oraclevcn.com",
+                                    "cdb_ip_default": "(DESCRIPTION=(CONNECT_TIMEOUT=5)(TRANSPORT_CONNECT_TIMEOUT=3)(RETRY_COUNT=3)(ADDRESS_LIST=(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.171)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.172)(PORT=1521))(ADDRESS=(PROTOCOL=TCP)(HOST=10.250.209.173)(PORT=1521)))(CONNECT_DATA=(SERVICE_NAME=OSBMCDSV_iad2vj.netsbxdbcs.vncsbxash.oraclevcn.com)))"
+                                }
+                            ],
+                            "db_backup_config": [
+                                {
+                                    "auto_backup_enabled": false,
+                                    "auto_backup_window": "",
+                                    "backup_destination_details": [],
+                                    "recovery_window_in_days": 0
+                                }
+                            ],
+                            "db_name": "OSBMCDSV",
+                            "db_unique_name": "OSBMCDSV_iad2vj",
+                            "db_workload": "OLTP",
+                            "defined_tags": {
+                                "J2C_CORE.Ambiente": "SANDBOX",
+                                "J2C_CORE.Artefacto": "OSB12213",
+                                "J2C_CORE.Automatizado": "true",
+                                "J2C_CORE.CUI/SAP": "",
+                                "J2C_CORE.Cliente": "",
+                                "J2C_CORE.Confidencialidad": "",
+                                "J2C_CORE.CreadoPor": "bchiac_user_auto",
+                                "J2C_CORE.CuentaContable": "",
+                                "J2C_CORE.Cumplimiento": "",
+                                "J2C_CORE.DuenoDeServicio": "",
+                                "J2C_CORE.FechaCreacion": "",
+                                "J2C_CORE.Funcionalidad": "",
+                                "J2C_CORE.Nombre": "",
+                                "J2C_CORE.Proyecto": "Mi_Banco",
+                                "J2C_CORE.RecycleFlag": "",
+                                "J2C_CORE.Recycle_Shutdown_Time": "",
+                                "J2C_CORE.Recycle_Startup_Time": "",
+                                "J2C_CORE.Region": "ash",
+                                "J2C_CORE.Sistema": "OSB12213",
+                                "J2C_CORE.Version": "Cloud_Ready"
+                            },
+                            "freeform_tags": {},
+                            "id": "ocid1.database.oc1.iad.abuwcljstudfdpglqqsblnozrsfdafnrgegxif7cwbj6ajk6l3nrhpa5uh6q",
+                            "lifecycle_details": "",
+                            "ncharacter_set": "AL16UTF16",
+                            "pdb_name": "OSB122DV",
+                            "state": "AVAILABLE",
+                            "time_created": "2020-09-14 14:58:46.51 +0000 UTC"
+                        }
+                    ],
+                    "db_home_location": "",
+                    "db_version": "12.2.0.1.200114",
+                    "display_name": "dbh01padosbpmosbmgomez01",
+                    "id": "ocid1.dbhome.oc1.iad.abuwcljs5q54s2ml3pgsm36lwjzawwtctduhfzacoukd4zdmqdbhpo3sw2ua",
+                    "last_patch_history_entry_id": "",
+                    "lifecycle_details": "",
+                    "state": "AVAILABLE",
+                    "time_created": "2020-09-14 14:58:46.509 +0000 UTC"
+                }
+            ],
+            "db_system_options": [
+                {
+                    "storage_management": "ASM"
+                }
+            ],
+            "defined_tags": {
+                "J2C_CORE.Ambiente": "SANDBOX",
+                "J2C_CORE.Artefacto": "OSB12213",
+                "J2C_CORE.Automatizado": "true",
+                "J2C_CORE.CUI/SAP": "",
+                "J2C_CORE.Cliente": "",
+                "J2C_CORE.Confidencialidad": "",
+                "J2C_CORE.CreadoPor": "bchiac_user_auto",
+                "J2C_CORE.CuentaContable": "",
+                "J2C_CORE.Cumplimiento": "",
+                "J2C_CORE.DuenoDeServicio": "",
+                "J2C_CORE.FechaCreacion": "",
+                "J2C_CORE.Funcionalidad": "",
+                "J2C_CORE.Nombre": "",
+                "J2C_CORE.Proyecto": "Mi_Banco",
+                "J2C_CORE.RecycleFlag": "",
+                "J2C_CORE.Recycle_Shutdown_Time": "",
+                "J2C_CORE.Recycle_Startup_Time": "",
+                "J2C_CORE.Region": "ash",
+                "J2C_CORE.Sistema": "OSB12213",
+                "J2C_CORE.Version": "Cloud_Ready"
+            },
+            "disk_redundancy": "HIGH",
+            "display_name": "padosbpmosbmgomez01",
+            "domain": "netsbxdbcs.vncsbxash.oraclevcn.com",
+            "fault_domains": [
+                "FAULT-DOMAIN-1",
+                "FAULT-DOMAIN-2"
+            ],
+            "freeform_tags": {},
+            "hostname": "padosbpmosbmgomez01",
+            "id": "ocid1.dbsystem.oc1.iad.abuwcljsniw6feurm52fytoq2ubdkayradb5ivta4nxx3ak4ypfowgp7e63q",
+            "iorm_config_cache": [],
+            "last_maintenance_run_id": null,
+            "last_patch_history_entry_id": null,
+            "license_model": "BRING_YOUR_OWN_LICENSE",
+            "lifecycle_details": null,
+            "listener_port": 1521,
+            "maintenance_window": [],
+            "maintenance_window_details": [],
+            "next_maintenance_run_id": null,
+            "node_count": 2,
+            "nsg_ids": null,
+            "reco_storage_size_in_gb": 256,
+            "scan_dns_record_id": "ocid1.vcndnsrecord.oc1.iad.abuwcljsxu22b7oqwwaqrjxeetq6huest6je52dw4gmgr6njoqvsrpd4vsbq",
+            "scan_ip_ids": [
+                "ocid1.privateip.oc1.iad.aaaaaaaav3vubcjvuw7lmjzakzqkfjems27svgmeiufkhsd7oocxqa7znhjq",
+                "ocid1.privateip.oc1.iad.aaaaaaaayybp7w2asibqbjibl4qmp2iwiflviej6g2mcc4uiohbuxcp4okqq",
+                "ocid1.privateip.oc1.iad.aaaaaaaagzc5n6fowmttmtxwvxkfxhonnjxemuannj4izqnbuhb4b6loivga"
+            ],
+            "shape": "VM.Standard2.2",
+            "source": "NONE",
+            "sparse_diskgroup": null,
+            "ssh_public_keys": [
+                "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4D/FveiLDZMVRdrerCIKl3UsW9eIdPEAXDoTDoikthOzETziGHAqL34+lDu0WDNS6+qev1fJLSdj3RumLYXv+J7XNpxOro3w31f8S4kEqxcsDqvZIBEufNbif6/l5q3Ah1FWoizOQwX0Oy9+Cy5hlN93yWybRqG1zr6HWywRPoy7NxC//gM8X/lgAsFhIKELsuwaMzmOuKFygf4DhvFu2edRCtlQ4snMi1rlcygGPOU+HAwcyDMfF9YVAL7cbpvv8RpimKcJS5dMr/dniBLIgUiVBdc/1gbLhRBhN1VP92ZjYlGT4ossBxic6qNyXzQRdPzE5SR7o9NkHynlUTWi7 bchiac_user_auto\n"
+            ],
+            "state": "AVAILABLE",
+            "subnet_id": "ocid1.subnet.oc1.iad.aaaaaaaajq5k3cipbh4qlj6j4gefisxf72zaq5squkizommj7x2igwzi4kca",
+            "time_created": "2020-09-14 14:58:46.505 +0000 UTC",
+            "time_zone": "America/Santiago",
+            "timeouts": null,
+            "version": "19.6.0.0.0",
+            "vip_ids": [
+                "ocid1.privateip.oc1.iad.aaaaaaaabhe2vpz7epljg36eoetoajzy5bb3mwyncqkykxx4ezyzzvcuydxa",
+                "ocid1.privateip.oc1.iad.aaaaaaaai7kewhtrycpwumygroocskb3l25ueci3du3yofasbjmrceersvta"
+            ]
+        }
+    },
+    "DBCS_SCAN_IPS": {
+        "sensitive": false,
+        "type": [
+            "tuple",
+            [
+                "string",
+                "string",
+                "string"
+            ]
+        ],
+        "value": [
+            "10.250.209.171",
+            "10.250.209.172",
+            "10.250.209.173"
         ]
     },
     "FSS_Instances": {
@@ -1130,70 +1555,70 @@
         "value": [
             {
                 "availability_domain": "gVeo:US-ASHBURN-AD-1",
-                "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                "compartment_id": "ocid1.compartment.oc1..aaaaaaaaq2shftdk2oxaaq7gynves2noer7njeuo73l2taxiargbab3ysnqq",
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wls_fss_ER_MGOMEZ_TAG_UPDATE01",
+                "display_name": "pashsbociosbmgomez01_fss01",
                 "freeform_tags": {},
-                "id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaans5lrnfqwillqojxwiotjmfsc2ylefuyqaaaa",
+                "id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaam56w2nfqwillqojxwiotjmfsc2ylefuyqaaaa",
                 "kms_key_id": "",
                 "metered_bytes": "0",
                 "state": "ACTIVE",
-                "time_created": "2020-09-29 02:46:42.392 +0000 UTC",
+                "time_created": "2020-09-14 14:58:46.239 +0000 UTC",
                 "timeouts": null
             },
             {
                 "availability_domain": "gVeo:US-ASHBURN-AD-1",
-                "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+                "compartment_id": "ocid1.compartment.oc1..aaaaaaaaq2shftdk2oxaaq7gynves2noer7njeuo73l2taxiargbab3ysnqq",
                 "defined_tags": {
-                    "J2C_CORE.Ambiente": "sandbox",
-                    "J2C_CORE.Artefacto": "",
-                    "J2C_CORE.Automatizado": "",
+                    "J2C_CORE.Ambiente": "SANDBOX",
+                    "J2C_CORE.Artefacto": "OSB12213",
+                    "J2C_CORE.Automatizado": "true",
                     "J2C_CORE.CUI/SAP": "",
                     "J2C_CORE.Cliente": "",
                     "J2C_CORE.Confidencialidad": "",
-                    "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                    "J2C_CORE.CreadoPor": "bchiac_user_auto",
                     "J2C_CORE.CuentaContable": "",
                     "J2C_CORE.Cumplimiento": "",
                     "J2C_CORE.DuenoDeServicio": "",
                     "J2C_CORE.FechaCreacion": "",
                     "J2C_CORE.Funcionalidad": "",
                     "J2C_CORE.Nombre": "",
-                    "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                    "J2C_CORE.Proyecto": "Mi_Banco",
                     "J2C_CORE.RecycleFlag": "",
                     "J2C_CORE.Recycle_Shutdown_Time": "",
                     "J2C_CORE.Recycle_Startup_Time": "",
-                    "J2C_CORE.Region": "ASH",
-                    "J2C_CORE.Sistema": "",
-                    "J2C_CORE.Version": "1.0"
+                    "J2C_CORE.Region": "ash",
+                    "J2C_CORE.Sistema": "OSB12213",
+                    "J2C_CORE.Version": "Cloud_Ready"
                 },
-                "display_name": "wls_fss_ER_MGOMEZ_TAG_UPDATE02",
+                "display_name": "pashsbociosbmgomez01_fss02",
                 "freeform_tags": {},
-                "id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaans5lpnfqwillqojxwiotjmfsc2ylefuyqaaaa",
+                "id": "ocid1.filesystem.oc1.iad.aaaaaaaaaaam56w3nfqwillqojxwiotjmfsc2ylefuyqaaaa",
                 "kms_key_id": "",
                 "metered_bytes": "0",
                 "state": "ACTIVE",
-                "time_created": "2020-09-29 02:46:37.483 +0000 UTC",
+                "time_created": "2020-09-14 14:58:48.755 +0000 UTC",
                 "timeouts": null
             }
         ]
@@ -1208,8 +1633,8 @@
             ]
         ],
         "value": [
-            "/wls01",
-            "/wls02"
+            "/pashsbocifssosb01",
+            "/pashsbocifssosb02"
         ]
     },
     "FSS_Private_IP": {
@@ -1275,51 +1700,51 @@
             }
         ],
         "value": {
-            "compartment_id": "ocid1.compartment.oc1..aaaaaaaajp6so64uyhckmtcvibjzfidysc5tvnpb7nlluu7mpvanfo6a57sq",
+            "compartment_id": "ocid1.compartment.oc1..aaaaaaaaq2shftdk2oxaaq7gynves2noer7njeuo73l2taxiargbab3ysnqq",
             "defined_tags": {
-                "J2C_CORE.Ambiente": "sandbox",
-                "J2C_CORE.Artefacto": "",
-                "J2C_CORE.Automatizado": "",
+                "J2C_CORE.Ambiente": "SANDBOX",
+                "J2C_CORE.Artefacto": "OSB12213",
+                "J2C_CORE.Automatizado": "true",
                 "J2C_CORE.CUI/SAP": "",
                 "J2C_CORE.Cliente": "",
                 "J2C_CORE.Confidencialidad": "",
-                "J2C_CORE.CreadoPor": "ORCL_MGOMEZ",
+                "J2C_CORE.CreadoPor": "bchiac_user_auto",
                 "J2C_CORE.CuentaContable": "",
                 "J2C_CORE.Cumplimiento": "",
                 "J2C_CORE.DuenoDeServicio": "",
                 "J2C_CORE.FechaCreacion": "",
                 "J2C_CORE.Funcionalidad": "",
                 "J2C_CORE.Nombre": "",
-                "J2C_CORE.Proyecto": "ER_MGOMEZ_TAG_UPDATE",
+                "J2C_CORE.Proyecto": "Mi_Banco",
                 "J2C_CORE.RecycleFlag": "",
                 "J2C_CORE.Recycle_Shutdown_Time": "",
                 "J2C_CORE.Recycle_Startup_Time": "",
-                "J2C_CORE.Region": "ASH",
-                "J2C_CORE.Sistema": "",
-                "J2C_CORE.Version": "1.0"
+                "J2C_CORE.Region": "ash",
+                "J2C_CORE.Sistema": "OSB12213",
+                "J2C_CORE.Version": "Cloud_Ready"
             },
-            "display_name": "wlslbaas",
+            "display_name": "pashsbocilbaasosbmgomez01",
             "freeform_tags": {},
-            "id": "ocid1.loadbalancer.oc1.iad.aaaaaaaanikabs5j6yyisweov5hvvfn2vgokd3typbuhvd3ltegaxwrqulyq",
+            "id": "ocid1.loadbalancer.oc1.iad.aaaaaaaazue24emvakw2np2f33p3fhsyzx7qfltqs4jibyspfkcjgmbmalla",
             "ip_address_details": [
                 {
-                    "ip_address": "10.250.192.207",
+                    "ip_address": "10.250.192.144",
                     "is_public": false
                 }
             ],
             "ip_addresses": [
-                "10.250.192.207"
+                "10.250.192.144"
             ],
             "ip_mode": null,
             "is_private": true,
-            "network_security_group_ids": [],
+            "network_security_group_ids": null,
             "shape": "100Mbps",
             "state": "ACTIVE",
             "subnet_ids": [
                 "ocid1.subnet.oc1.iad.aaaaaaaa5rqtcl2eygw2isaju57ba3f5dvtmckuoj723cuulke4krgaf2jdq"
             ],
             "system_tags": {},
-            "time_created": "2020-09-29 02:46:37.683 +0000 UTC",
+            "time_created": "2020-09-14 14:58:44.917 +0000 UTC",
             "timeouts": null
         }
     }
